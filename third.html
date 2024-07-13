@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body class="truth" id="truth">
+      <div id="thirdtext" class="thirdtext">  I know you are doing great my love...❤️<br>
+        And i know you are soo lucky to have a girlfriend like me and your life will be zerooo without me..<br>I love you soo much kanda..<br>kanda..From the day one , my love for you is increasing day by day..We had a great great great memories together..<br>kanda dont you think that we are made for each other?<br>
+        We dont know how many days we will be together untill then u r my everythinng..I need you to keep my soul happy, i know u tooo need me .<br>Just remember the first day we met each other,on counselling day, after that some magic has happened and we both felt something to each other and fell in LOVE❤️<br> I think god made us to meet each other with a reason.ITS all about a destiny...kandaa
+        <br>SOOOOOOO NOW i wanted to know more about you<br> 
+
+       <strong> <h1>Sooo........LETS PLAY A GAME</h1></strong><br></div>
+        
+        <div class="truthtext"><h1>Truth or Dare</h1>
+        <ul>
+            <li><a href="#" onclick="getRandomTruth()">Truth</a></li>
+            <li><a href="dare.html">Dare</a></li>
+        </ul>
+        <a href="truth.html">Truth questions</a>
+    </div>
+        <style>
+            .truth{
+                background-image: url(https://img.freepik.com/free-photo/copy-space-red-heart-valentines-day_23-2148385946.jpg?w=740&t=st=1720767941~exp=1720768541~hmac=2d77fc16cd7d4430a5a1f6bfa37053ac5a40737488fa5c58c63f2561d50213d8);
+                
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-position:center;
+                position: fixed;
+                overflow: hidden;
+                background-attachment: fixed;
+                
+                
+                background-size: cover;
+        
+            }
+            .thirdtext{
+                padding-left: 5%;
+                font-family:cursive;
+                font-weight:500;
+                
+                padding-top: 4%;
+                color: rgb(145, 20, 47);
+                
+               
+            }
+            .truthtext{
+                
+                padding-left: 20%;
+                padding-top: 2%;
+                font-size: medium;
+                
+            }
+
+        </style>
+        
+    
+        <script>
+            function getRandomTruth() {
+                // List of possible truth messages
+                var truthMessages = [
+                    "What's the one good thing you like about me kanda??",
+                    "What's the one thing you hate about me kanda??",
+                    "How much will you be happy without me in future??",
+                    "What's the best moment with me?",
+                    "If you could ask something to god then what it would be??",
+                    "If god aked you for something, what would you ask for??",
+                    "if god has given permission to marry your loved ones whom will u marry??",
+                    "if u remember me whats the first thibk comes into picture??"
+                    // Add more truth messages as needed
+                ];
+    
+                // Choose a random index
+                var randomIndex = Math.floor(Math.random() * truthMessages.length);
+    
+                // Display pop-up with the randomly chosen truth message
+                var response = prompt("Truth: " + truthMessages[randomIndex]);
+    
+                // Optionally, handle the response (e.g., display it)
+                if (response !== null && response !== "") {
+                    alert("You answered: " + response);
+                }
+            }
+
+        </script>
+    </body>
+    </html>
